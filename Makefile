@@ -6,7 +6,7 @@
 #    By: yelee <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/26 22:28:22 by yelee             #+#    #+#              #
-#    Updated: 2020/02/18 18:00:24 by yelee            ###   ########.fr        #
+#    Updated: 2020/03/04 21:42:52 by yelee            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ SRCS = ft_atoi.c ft_bzero.c ft_isalnum.c \
 	 ft_strlcat.c ft_strlen.c ft_strmap.c ft_strmapi.c ft_strncat.c \
 	 ft_strncmp.c ft_strncpy.c ft_strnequ.c ft_strnew.c ft_strnstr.c \
 	 ft_strrchr.c ft_strsplit.c ft_strstr.c \
-	 ft_strsub.c ft_strtrim.c ft_lstaddtoend.c
+	 ft_strsub.c ft_strtrim.c ft_lstaddtoend.c ft_lstsize.c ft_error.c
 
 OBJECTS = ft_atoi.o ft_bzero.o ft_isalnum.o \
 		ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o \
@@ -40,7 +40,7 @@ OBJECTS = ft_atoi.o ft_bzero.o ft_isalnum.o \
 		ft_strlcat.o ft_strlen.o ft_strmap.o ft_strmapi.o ft_strncat.o \
 		ft_strncmp.o ft_strncpy.o ft_strnequ.o ft_strnew.o ft_strnstr.o \
 		ft_strrchr.o ft_strsplit.o ft_strstr.o \
-		ft_strsub.o ft_strtrim.o ft_lstaddtoend.o
+		ft_strsub.o ft_strtrim.o ft_lstaddtoend.o ft_lstsize.o ft_error.o
 INCLUDES=./
 
 FLAG = -Wall -Wextra -Werror
